@@ -4,6 +4,11 @@
     1. [Required software ](#required-software)
     2. [Init VM](#init-vm)
 2. [Deployment with Kubeadm](#deployment-with-kubeadm)
+    1. [Letting iptable see bridge traffic (ALL NODES)](#Letting-iptable-see-bridge-traffic-(ALL-NODES))
+    2. [Install & Config Container Runtime (ALL NODES)](#Install-&-Config-Container-Runtime-(ALL-NODES))
+    3. [Install kubectl, kubeadm, kubelet (ALL NODES)](#Install-kubectl,-kubeadm,-kubelet-(ALL-NODES))
+    4. [Initialize controlplane node (MASTER NODES)](#Initialize-controlplane-node-(MASTER-NODES))
+    5. [Join the worker node (WORKER NODES)](#Join-the-worker-node-(WORKER-NODES))
 3. [Install the Hardway](#install-the-hardway)
 
 ## System requirements
@@ -14,7 +19,9 @@
 - VirtualBox version 6.1.30
 - Vagrantfile
     - 1 Master node
-    - 2 Worker node
+    - 1 Worker node
+
+`I have low spec hardware`
 
 ### Init VM
 
@@ -172,3 +179,5 @@ kubeadm join 192.168.56.2:6443 --token <token> \
 ```
 
 ## Install the Hardway
+
+[Solution](https://www.youtube.com/playlist?list=PL2We04F3Y_41jYdadX55fdJplDvgNGENo) here; Don't be cheater
