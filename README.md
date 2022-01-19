@@ -6,7 +6,7 @@
 2. [Deployment with Kubeadm](#deployment-with-kubeadm)
     1. [Letting iptable see bridge traffic (ALL NODES)](#letting-iptable-see-bridge-traffic-all-nodes)
     2. [Install & Config Container Runtime (ALL NODES)](#install-&-config-container-runtime-all-nodes)
-    3. [Install kubectl, kubeadm, kubelet (ALL NODES)](#install-kubectl,-kubeadm,-kubelet-all-nodes)
+    3. [Install kubectl, kubeadm, kubelet (ALL NODES)](#install-kubectl-kubeadm-kubelet-all-nodes)
     4. [Initialize controlplane node (MASTER NODES)](#initialize-controlplane-node-master-nodes)
     5. [Join the worker node (WORKER NODES)](#join-the-worker-node-worker-nodes)
 3. [Install the Hardway](#install-the-hardway)
